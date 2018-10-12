@@ -265,6 +265,59 @@ table button{
       color:black;
       
 }
+ 
+#click{
+  background-color:paleturquoise
+}
+
+.click2{
+  font-family: Cambria;
+  font-size: 30px;
+  font-weight:bold;
+  text-align: center
+}
+
+.click3{
+     float:right;
+     padding-right:80px;
+              
+}
+
+.click3 a{
+      text-decoration: none;
+      font-family: cambria;
+      font-size:15px;
+      color:black;
+      font-weight:bold;
+            
+}
+
+.click3 button{
+    background-color:pink;
+    border:2px solid purple;
+    padding:10px 20px;
+    border-radius:8px;
+    
+}
+
+.put{
+    text-align: left;
+    padding-left:40px;
+    font-family:cambria;
+    font-weight:bold;
+    font-size:15px;
+
+}
+
+.put2{
+  text-align: left;
+  padding-left:40px;
+  font-family:cambria;
+  font-weight:bold;
+  font-size:15px;
+  padding-top:15px;
+
+}
 
 
   
