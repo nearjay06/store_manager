@@ -9,12 +9,12 @@ body{
       font-family: cochin;
       font-weight:bold;
       text-align:center;
-      color:red;
+      color:aqua;
          
  }
 
 #store {
-       background-image: url(images/supermarket9.jpg);
+       background-image: url(images/log4.png);
        background-repeat: no-repeat;
        background-size:cover;
 }
@@ -40,15 +40,29 @@ body{
 .pile2{
       float: right;
       margin-left:50%;
-      
-      
+        
+}
+
+.pile2 a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+  font-family: cambria;
+  font-size:15px;
+
+}
+
+.pile2 button {
+  border:2px solid gray;
+  border-radius: 30px
+
 }
 
 .sign{
      background-color: cornflowerblue;
-     font-family: sans-serif;
+     font-family: cambria;
      font-size: 20px;
-     height: 300px;
+     height: 200px;
      width: 2%;
      color:black;
      padding-left: 20%;
@@ -58,6 +72,7 @@ body{
      margin:auto;
      font-weight:bold;
      flex-wrap: wrap;
+     border-radius:50px
      
      
 }
@@ -112,7 +127,7 @@ body{
 
 .line2{
   font-family: cambria;
-  font-size: 30px;
+  font-size: 20px;
   font-weight:bold;
   padding-left:20px;
   margin-right:40%;
@@ -176,6 +191,15 @@ table button{
   margin-top: 3%;
   margin-left:2%;
   margin-right:3%;
+
+}
+
+.pen a{
+     text-decoration: none;
+     font-family:cambria;
+     color:black;
+     font-weight:bold;
+     font-size:20px;
 
 }
 
@@ -667,6 +691,7 @@ margin-bottom:5px
   color:blue;
   float: left;
   padding-right:5px;
+  
   
 }
 
