@@ -1,706 +1,699 @@
 body{
- width: 100%;
- height: 100%;
- background-color: brown;
- }
-
- .tin{
-      font-size: 40px;
-      font-family: cochin;
-      font-weight:bold;
-      text-align:center;
-      color:aqua;
-         
- }
-
-#store {
-       background-image: url(images/log4.png);
-       background-repeat: no-repeat;
-       background-size:cover;
-}
-
-.pile{
-  position: absolute;
-  top: 230px;
-  left: 600px;
-      /*font-family: sans-serif;
-      font-size: 20px;
-      color:black;
-      padding-bottom: 3%;
-      padding-top: 3%;
-      float:right;
-      padding-left: 30px ;
-      padding-right:50px ;
-      margin-right: 50px;
-      margin-bottom: 2%;
-      margin-left:50px;*/
-           
-    }
- 
-.pile2{
-      float: right;
-      margin-left:50%;
-        
-}
-
-.pile2 a{
-  text-decoration:none;
-  color:black;
-  font-weight:bold;
-  font-family: cambria;
-  font-size:15px;
-
-}
-
-.pile2 button {
-  border:2px solid gray;
-  border-radius: 30px
-
-}
-
-.sign{
-     background-color: cornflowerblue;
-     font-family: cambria;
-     font-size: 20px;
-     height: 200px;
-     width: 2%;
-     color:black;
-     padding-left: 20%;
-     padding-top: 5%;
-     padding-right: 10%;
-     padding-bottom: 0%;
-     margin:auto;
-     font-weight:bold;
-     flex-wrap: wrap;
-     border-radius:50px
-     
-     
-}
-
-.copy{
-  color:black;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  font-family: cambria;
-  font-weight: bold
-}
-
-.copy2{
-  color:blue;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  font-family: cambria;
-  font-weight: bolder
-}
-
-.line{
-     text-decoration: none;
-     font-family: cambria;
-     float:right;
-     font-size: 20px;
-     padding-right: 10%;
-          
-}
-.line a{
-       text-decoration: none;
-       color: blue;
-       font-weight:bolder;
-       
-       
-}
-.line button{
-     width:100%;
-     background-color:pink;
-     border: 1px solid red;
-     padding: 14px 40px;
-         
-}
- li{
-  float: left;
-  list-style: none;
-  width:30%;
-  margin-top:2%;
-      
-}
-
-.line2{
-  font-family: cambria;
-  font-size: 20px;
-  font-weight:bold;
-  padding-left:20px;
-  margin-right:40%;
-  margin-top: 3%;
-  width: 60%;
-  background-color:aqua;
-  height: 60px;
-  margin-left:60px;
-  color:blue
-    
+  width: 100%;
+  height: 100%;
+  background-color: brown;
   }
-
-
-
-.line2 a{
-     text-decoration: none;
-     color:blue;
-     float: left;
+ 
+  .tin{
+       font-size: 40px;
+       font-family: cochin;
+       font-weight:bold;
+       text-align:center;
+       color:aqua;
+          
+  }
+ 
+ #store {
+        background-image: url(images/log4.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+ }
+ 
+ .pile{
+   position: absolute;
+   top: 230px;
+   left: 600px;
+       /*font-family: sans-serif;
+       font-size: 20px;
+       color:black;
+       padding-bottom: 3%;
+       padding-top: 3%;
+       float:right;
+       padding-left: 30px ;
+       padding-right:50px ;
+       margin-right: 50px;
+       margin-bottom: 2%;
+       margin-left:50px;*/
             
      }
-table{
-    margin-right: 20px;
-    color: black;
-    border: 2px solid maroon;
-    border-radius: 4px;
-    padding: 20px;
-    width:80%;
-    font-family: Cambria;
-    font-size:15px;
-    background-color:wheat; 
-    margin-left:80px; 
-    margin-top:3%;
-    border-collapse: collapse;
-    border-right:1px solid black;
-        
-}
-
-td,th{
-  padding: 10px;
-  font-family: Cambria;
-  font-size:15px;
-  border-bottom:1px solid black; 
-  border-left:1px solid black;
-  border-right: 1px solid black;
-  text-align:left;
   
-  }
-table button{
-  font-size: 12px;
-  padding: 10px 24px;
-  font-family: cambria;
-  border-radius: 4px;
-  border: 2px solid royalblue;
-  
-}
-
-.pen{
-  background-color:turquoise;
-  font-family: cambria;
-  font-weight:bold;
-  padding:2%;
-  width: 50%;
-  margin-top: 3%;
-  margin-left:2%;
-  margin-right:3%;
-
-}
-
-.pen a{
-     text-decoration: none;
-     font-family:cambria;
-     color:black;
-     font-weight:bold;
-     font-size:20px;
-
-}
-
-.pen2{
-     float:right;
-     padding-right: 50px;
-     
-     
-  }
-
-.pen2 button{
-  font-size: 12px;
-  padding: 10px 24px;
-  font-family: cambria;
-  border-radius: 4px;
-  border: 2px solid grey;
-  font-weight: bold;
-  font-size: 15px;
-    
-}
-.pen3{
-    text-align:center;
-    font-family: cambria;
-    font-weight:bold;
-  
-}
-
-.photo{
-  font-family: cambria;
-  font-weight:bold;
-  font-size:15px;
-  width:30%;
-  margin-left:20px;
-  padding-left:10px;
-  padding-bottom:20px
-}
-
-.look {
-  display: flex;
-  flex-direction: column;
-  width:40%;
-  margin-left:30px;
-  margin-right:20px;
-  padding-left:3%;
-  font-family: Cambria;
-  font-weight:bold;
-  font-size:15px;
-  float:left
-   
-}
-
-.look2{
-  display: flex;
-  flex-direction: column;
-  width:40%;
-  margin-right:5%;
-  float:right;
-  font-family: Cambria;
-  font-weight:bold;
-  font-size:15px;
-  padding-left:3%;
-  margin-bottom: 20%
-
-}
-
-.see{
-  align-items: center;
-  padding-top:40%;
-  padding-left:30%;
-  padding-bottom: 5%;
-  margin-top:20px;
-    
-}
-.see button{
-  font-size: 12px;
-  padding: 10px 24px;
-  font-family: cambria;
-  border-radius: 4px;
-  border: 2px solid red;
-  font-weight: bold;
-  font-size: 15px;
-  
-  }
-
-.see a{
-      text-decoration: none;
-      color:black;
-      
-}
+ .pile2{
+       float: right;
+       margin-left:50%;
+         
+ }
  
-#click{
-  background-color:paleturquoise
-}
-
-.click2{
-  font-family: Cambria;
-  font-size: 30px;
-  font-weight:bold;
-  text-align: center
-}
-
-.click3{
-     float:right;
-     padding-right:80px;
-              
-}
-
-.click3 a{
+ .pile2 a{
+   text-decoration:none;
+   color:black;
+   font-weight:bold;
+   font-family: cambria;
+   font-size:15px;
+ 
+ }
+ 
+ .pile2 button {
+   border:2px solid gray;
+   border-radius: 30px
+ 
+ }
+ 
+ .sign{
+      background-color: cornflowerblue;
+      font-family: cambria;
+      font-size: 20px;
+      height: 200px;
+      width: 2%;
+      color:black;
+      padding-left: 20%;
+      padding-top: 5%;
+      padding-right: 10%;
+      padding-bottom: 0%;
+      margin:auto;
+      font-weight:bold;
+      flex-wrap: wrap;
+      border-radius:50px
+      
+      
+ }
+ 
+ .copy{
+   color:black;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-left: 2%;
+   font-family: cambria;
+   font-weight: bold
+ }
+ 
+ .copy2{
+   color:blue;
+   padding-top: 2%;
+   padding-bottom: 2%;
+   padding-left: 2%;
+   font-family: cambria;
+   font-weight: bolder
+ }
+ 
+ .line{
       text-decoration: none;
       font-family: cambria;
-      font-size:15px;
-      color:black;
-      font-weight:bold;
-            
-}
-
-.click3 button{
-    background-color:pink;
-    border:2px solid purple;
-    padding:10px 20px;
-    border-radius:8px;
-    
-}
-
-.put{
-    text-align: left;
-    padding-left:40px;
-    font-family:cambria;
-    font-weight:bold;
-    font-size:15px;
-
-}
-
-.put2{
-  text-align: left;
-  padding-left:40px;
-  font-family:cambria;
-  font-weight:bold;
-  font-size:15px;
-  padding-top:15px;
-
-}
-
-#pipe{
-  background-color: lavender
-}
-
-.lala{
-  margin-top:5%;
-  float:left;
-  padding-left:50px;
-  font-family:cambria;
-  font-size:15px;
-} 
-
-.pipe2{
-    float:right;
-    padding-left:30px;
-    width:10%;
-    padding-bottom: 2%;
-}
-
-.pipe2 button{
-  border-radius:8px;
-  background-color:aliceblue;
-  border:2px solid black;
-  padding:10px 20px;
-  
-   
-}
-.pipe2 a{
- text-decoration:none;
- font-family:cambria;
- font-weight:bold;
- font-size:15px;
+      float:right;
+      font-size: 20px;
+      padding-right: 10%;
+           
+ }
+ .line a{
+        text-decoration: none;
+        color: blue;
+        font-weight:bolder;
+        
+        
+ }
+ .line button{
+      width:100%;
+      background-color:pink;
+      border: 1px solid red;
+      padding: 14px 40px;
+          
+ }
+  li{
+   float: left;
+   list-style: none;
+   width:30%;
+   margin-top:2%;
+       
+ }
  
-}
-
-.lol{
-  background-color:palevioletred;
-  font-family:cambria;
-  font-weight:bold;
-  font-size:20px;
-  padding-top:10px;
-  padding-bottom:50px;
-  width:50%;
-  padding-left:60px;
-  margin-top:30%;
-  margin-left: 80px;
-  margin-top: 3%;
-  height: 40px;
-  margin-left: 60px;
-  color:black
-  
-}
-
-.lol a{
-     text-decoration:none;
-     color:black;
-     padding-left: 10px;
+ .line2{
+   font-family: cambria;
+   font-size: 20px;
+   font-weight:bold;
+   padding-left:20px;
+   margin-right:40%;
+   margin-top: 3%;
+   width: 60%;
+   background-color:aqua;
+   height: 60px;
+   margin-left:60px;
+   color:blue
      
-}
-
-.lol2{
-     text-align:center;
-     padding-top:5px;
-     padding-bottom: 5px;
-     
-}
-
-#tune{
-  background-color:lavender;
-  background-image: url(images/supermarket5.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-}
-
-.tune1{
-  text-align:center;
-  font-size:30px;
-  font-family:cambria;
-  font-weight:bold;
-  padding-top:2px;
-  padding-bottom: -2px;
-  background-color:white;
-  width:50%;
-  padding-left:60px;
-  margin-left:20%;
-  margin-bottom: 40px;
-  border: 2px solid black;
-  border-radius:10px
+   }
+ 
+ 
+ 
+ .line2 a{
+      text-decoration: none;
+      color:blue;
+      float: left;
+             
+      }
+ table{
+     margin-right: 20px;
+     color: black;
+     border: 2px solid maroon;
+     border-radius: 4px;
+     padding: 20px;
+     width:80%;
+     font-family: Cambria;
+     font-size:15px;
+     background-color:wheat; 
+     margin-left:80px; 
+     margin-top:3%;
+     border-collapse: collapse;
+     border-right:1px solid black;
+         
+ }
+ 
+ td,th{
+   padding: 10px;
+   font-family: Cambria;
+   font-size:15px;
+   border-bottom:1px solid black; 
+   border-left:1px solid black;
+   border-right: 1px solid black;
+   text-align:left;
    
-}
-
-.key{
-  background-color: plum;
-  font-family:cambria;
-  font-weight:bold;
-  font-size:20px;
-  text-align:center;
-  width:20%;
-  margin-top:5%;
-  margin-left:35%;
-  padding-left:20px;
-  padding-top:5px;
-  border-radius: 20px;
-  border: 2px solid black;
-  padding-right:20px;
-  height:160px
-  
-}
-
-.key2{
-    padding-top:8px;
-    
-}
-.key2 a{
-  font-family:cambria;
-  font-size:15px;
-  text-decoration:none;
-  color:black;
-  padding:1px 2px
-}
-
-.key2 button{
-  border-radius:2px;
-  border:1px solid red;
-  padding-top:3px;
-  padding-bottom:3px;
-  margin-top:10px;
-  margin-bottom:5px
-}
-
-.key3{
-  padding-top:5px;
-  }
-.key3 a{
-font-family:cambria;
-font-size:15px;
-text-decoration:none;
-color:black;
-padding:1px 2px
-}
-
-.key3 button{
-border-radius:2px;
-border:1px solid red;
-padding-top:3px;
-padding-bottom:3px;
-margin-top:10px;
-margin-bottom:5px
-}
-.kol{
-  font-family:cambria;
-  padding-left:20px;
-  float:left;
-  font-size:15px;
-  padding-top:40px
-}
-
-#access{
-  background-color:antiquewhite
-
-}
-
-.access1{
-  text-align:center;
-  font-size:30px;
-  font-family:cambria;
-  font-weight:bold;
-  padding-top:2px;
-  padding-bottom: -2px;
-  width:50%;
-  padding-left:60px;
-  margin-left:20%;
-  margin-bottom: 40px;
-  }
-
- .flash2{
-    font-family: cambria;
-    font-size: 40px;
-    padding-top: 3px;
-    padding-bottom: 10px;
-    font-weight:bold;
-    padding-left:350px;
-    
- } 
- .flash3{
-  padding-top: 20px;
-  padding-bottom: 3px;
-  padding-right:2px;
-  background-color:olive;
-  width:40%;
-  height:250px;
-  padding-left:40x;
-  margin-left:20%;
-  border-radius:200px
+   }
+ table button{
+   font-size: 12px;
+   padding: 10px 24px;
+   font-family: cambria;
+   border-radius: 4px;
+   border: 2px solid royalblue;
+   
  }
-
- .flash3 a{
-  font-family: cambria;
-  font-size: 20px;
-  color:black;
-  font-weight:bold;
-  text-decoration:none;
-  padding-left: 150px;
-  margin-top:10%;
-  
+ 
+ .pen{
+   background-color:turquoise;
+   font-family: cambria;
+   font-weight:bold;
+   padding:2%;
+   width: 50%;
+   margin-top: 3%;
+   margin-left:2%;
+   margin-right:3%;
+ 
  }
-
- .flash{
-     float:right;
-     width: 100px;
-     border-radius:9px;
-     border:2px solid maroon;
-     padding-top:3px;
-     padding-bottom:3px;
-     margin-top:10px;
-     margin-bottom:5px;
-     margin-right:50px; 
-     background-color:coral;
-     text-align:center;
-
- }
-
- .flash a{
-      text-decoration:none;
+ 
+ .pen a{
+      text-decoration: none;
       font-family:cambria;
-      font-size:15px;
-      font-weight:bold;
       color:black;
-      padding-top:15px;
-      padding-bottom:15px;
-
+      font-weight:bold;
+      font-size:20px;
+ 
  }
-
- .ball{
-  text-align:center;
-  font-size:30px;
-  font-family:cambria;
-  font-weight:bold;
-  padding-top:2px;
-  padding-bottom: -2px;
-  padding-left:60px;
-  margin-left:20%;
-  margin-bottom: 40px;
-  width:50%;
-
-}
-
-#bin{
-  background-image: url(images/log3.png);
-  background-repeat: no-repeat;
-  background-size:cover;
-
-}
-
-.bin2{
-  background-color:pink;
-  width:300px;
-  font-family:cambria;
-  font-size:20px;
-  font-weight:bold;
-  border:2px solid black;
-  height: 160px;
-  border-radius:24px;
-  text-align:left;
-  padding-top:10px;
-  padding-left:50px;
-  margin-left:500px;
-  
-}
-.bin2 a{
-  text-decoration:none;
-  color:black;
-  font-size:15px;
-  font-family:cambria;
-  font-weight:bold;
-  margin-top:2px
-}
-
-.bin2 button{
-  border-radius:20px;
-  border:2px solid palevioletred;
-  margin-top: 4%
-}
-
-.kol2{
-  font-family:cambria;
-  padding-left:20px;
-  float:left;
-  font-size:15px;
-  padding-top:200px
-}
-
-#recs{
-  background-color:olivedrab
-}
-
-.cram{
-  font-family: cambria;
-  font-size: 20px;
-  font-weight:bold;
-  padding-left:20px;
-  margin-right:40%;
-  margin-top: 3%;
-  width: 50%;
-  background-color:aqua;
-  height: 50px;
-  margin-left:60px;
-  color:blue
-}
-
-.cram a{
-     text-decoration: none;
-     color:blue;
-     float: left;
-}
-
-.cram1{
-  text-align:center;
-  font-weight:bold;
-  font-size:20px;
-  font-family:cambria;
-  color:blue;
-  padding-right: 200px;
-
-}
-#recs1{
-  background-color: lavenderblush;
-}
-
-.cram3{
-  font-family: cambria;
-  font-size: 20px;
-  font-weight:bold;
-  padding-left:10px;
-  margin-right:20px;
-  margin-top: 3%;
-  width: 60%;
-  background-color:aqua;
-  height: 50px;
-  margin-left:20px;
-  color:blue
-}
-
-.cram3 a{
-  text-decoration: none;
-  color:blue;
-  float: left;
-  padding-right:5px;
-  
-  
-}
-
-
-
-     
+ 
+ .pen2{
+      float:right;
+      padding-right: 50px;
       
-
-
-
+      
+   }
+ 
+ .pen2 button{
+   font-size: 12px;
+   padding: 10px 24px;
+   font-family: cambria;
+   border-radius: 4px;
+   border: 2px solid grey;
+   font-weight: bold;
+   font-size: 15px;
+     
+ }
+ .pen3{
+     text-align:center;
+     font-family: cambria;
+     font-weight:bold;
+   
+ }
+ 
+ .photo{
+   font-family: cambria;
+   font-weight:bold;
+   font-size:15px;
+   width:30%;
+   margin-left:20px;
+   padding-left:10px;
+   padding-bottom:20px
+ }
+ 
+ .look {
+   display: flex;
+   flex-direction: column;
+   width:40%;
+   margin-left:30px;
+   margin-right:20px;
+   padding-left:3%;
+   font-family: Cambria;
+   font-weight:bold;
+   font-size:15px;
+   float:left
+    
+ }
+ 
+ .look2{
+   display: flex;
+   flex-direction: column;
+   width:40%;
+   margin-right:5%;
+   float:right;
+   font-family: Cambria;
+   font-weight:bold;
+   font-size:15px;
+   padding-left:3%;
+   margin-bottom: 20%
+ 
+ }
+ 
+ .see{
+   align-items: center;
+   padding-top:40%;
+   padding-left:30%;
+   padding-bottom: 5%;
+   margin-top:20px;
+     
+ }
+ .see button{
+   font-size: 12px;
+   padding: 10px 24px;
+   font-family: cambria;
+   border-radius: 4px;
+   border: 2px solid red;
+   font-weight: bold;
+   font-size: 15px;
+   
+   }
+ 
+ .see a{
+       text-decoration: none;
+       color:black;
+       
+ }
+  
+ #click{
+   background-color:paleturquoise
+ }
+ 
+ .click2{
+   font-family: Cambria;
+   font-size: 30px;
+   font-weight:bold;
+   text-align: center
+ }
+ 
+ .click3{
+      float:right;
+      padding-right:80px;
+               
+ }
+ 
+ .click3 a{
+       text-decoration: none;
+       font-family: cambria;
+       font-size:15px;
+       color:black;
+       font-weight:bold;
+             
+ }
+ 
+ .click3 button{
+     background-color:pink;
+     border:2px solid purple;
+     padding:10px 20px;
+     border-radius:8px;
+     
+ }
+ 
+ .put{
+     text-align: left;
+     padding-left:40px;
+     font-family:cambria;
+     font-weight:bold;
+     font-size:15px;
+ 
+ }
+ 
+ .put2{
+   text-align: left;
+   padding-left:40px;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:15px;
+   padding-top:15px;
+ 
+ }
+ 
+ #pipe{
+   background-color: lavender
+ }
+ 
+ .lala{
+   margin-top:5%;
+   float:left;
+   padding-left:50px;
+   font-family:cambria;
+   font-size:15px;
+ } 
+ 
+ .pipe2{
+     float:right;
+     padding-left:30px;
+     width:10%;
+     padding-bottom: 2%;
+ }
+ 
+ .pipe2 button{
+   border-radius:8px;
+   background-color:aliceblue;
+   border:2px solid black;
+   padding:10px 20px;
+   
+    
+ }
+ .pipe2 a{
+  text-decoration:none;
+  font-family:cambria;
+  font-weight:bold;
+  font-size:15px;
+  
+ }
+ 
+ .lol{
+   background-color:palevioletred;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:20px;
+   padding-top:10px;
+   padding-bottom:50px;
+   width:50%;
+   padding-left:60px;
+   margin-top:30%;
+   margin-left: 80px;
+   margin-top: 3%;
+   height: 40px;
+   margin-left: 60px;
+   color:black
+   
+ }
+ 
+ .lol a{
+      text-decoration:none;
+      color:black;
+      padding-left: 10px;
+      
+ }
+ 
+ .lol2{
+      text-align:center;
+      padding-top:5px;
+      padding-bottom: 5px;
+      
+ }
+ 
+ #tune{
+   background-color:lavender;
+   background-image: url(images/supermarket5.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+ 
+ .tune1{
+   text-align:center;
+   font-size:30px;
+   font-family:cambria;
+   font-weight:bold;
+   padding-top:2px;
+   padding-bottom: -2px;
+   background-color:white;
+   width:50%;
+   padding-left:60px;
+   margin-left:20%;
+   margin-bottom: 40px;
+   border: 2px solid black;
+   border-radius:10px
+    
+ }
+ 
+ .key{
+   background-color: plum;
+   font-family:cambria;
+   font-weight:bold;
+   font-size:20px;
+   text-align:center;
+   width:20%;
+   margin-top:5%;
+   margin-left:35%;
+   padding-left:20px;
+   padding-top:5px;
+   border-radius: 20px;
+   border: 2px solid black;
+   padding-right:20px;
+   height:160px
+   
+ }
+ 
+ .key2{
+     padding-top:8px;
+     
+ }
+ .key2 a{
+   font-family:cambria;
+   font-size:15px;
+   text-decoration:none;
+   color:black;
+   padding:1px 2px
+ }
+ 
+ .key2 button{
+   border-radius:2px;
+   border:1px solid red;
+   padding-top:3px;
+   padding-bottom:3px;
+   margin-top:10px;
+   margin-bottom:5px
+ }
+ 
+ .key3{
+   padding-top:5px;
+   }
+ .key3 a{
+ font-family:cambria;
+ font-size:15px;
+ text-decoration:none;
+ color:black;
+ padding:1px 2px
+ }
+ 
+ .key3 button{
+ border-radius:2px;
+ border:1px solid red;
+ padding-top:3px;
+ padding-bottom:3px;
+ margin-top:10px;
+ margin-bottom:5px
+ }
+ .kol{
+   font-family:cambria;
+   padding-left:20px;
+   float:left;
+   font-size:15px;
+   padding-top:40px
+ }
+ 
+ #access{
+   background-color:antiquewhite
+ 
+ }
+ 
+ .access1{
+   text-align:center;
+   font-size:30px;
+   font-family:cambria;
+   font-weight:bold;
+   padding-top:2px;
+   padding-bottom: -2px;
+   width:50%;
+   padding-left:60px;
+   margin-left:20%;
+   margin-bottom: 40px;
+   }
+ 
+  .flash2{
+     font-family: cambria;
+     font-size: 40px;
+     padding-top: 3px;
+     padding-bottom: 10px;
+     font-weight:bold;
+     padding-left:350px;
+     
+  } 
+  .flash3{
+   padding-top: 20px;
+   padding-bottom: 3px;
+   padding-right:2px;
+   background-color:olive;
+   width:40%;
+   height:250px;
+   padding-left:40x;
+   margin-left:20%;
+   border-radius:200px
+  }
+ 
+  .flash3 a{
+   font-family: cambria;
+   font-size: 20px;
+   color:black;
+   font-weight:bold;
+   text-decoration:none;
+   padding-left: 150px;
+   margin-top:10%;
+   
+  }
+ 
+  .flash{
+      float:right;
+      width: 100px;
+      border-radius:9px;
+      border:2px solid maroon;
+      padding-top:3px;
+      padding-bottom:3px;
+      margin-top:10px;
+      margin-bottom:5px;
+      margin-right:50px; 
+      background-color:coral;
+      text-align:center;
+ 
+  }
+ 
+  .flash a{
+       text-decoration:none;
+       font-family:cambria;
+       font-size:15px;
+       font-weight:bold;
+       color:black;
+       padding-top:15px;
+       padding-bottom:15px;
+ 
+  }
+ 
+  .ball{
+   text-align:center;
+   font-size:30px;
+   font-family:cambria;
+   font-weight:bold;
+   padding-top:2px;
+   padding-bottom: -2px;
+   padding-left:60px;
+   margin-left:20%;
+   margin-bottom: 40px;
+   width:50%;
+ 
+ }
+ 
+ #bin{
+   background-image: url(images/log3.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+ 
+ }
+ 
+ .bin2{
+   background-color:pink;
+   width:300px;
+   font-family:cambria;
+   font-size:20px;
+   font-weight:bold;
+   border:2px solid black;
+   height: 160px;
+   border-radius:24px;
+   text-align:left;
+   padding-top:10px;
+   padding-left:50px;
+   margin-left:500px;
+   
+ }
+ .bin2 a{
+   text-decoration:none;
+   color:black;
+   font-size:15px;
+   font-family:cambria;
+   font-weight:bold;
+   margin-top:2px
+ }
+ 
+ .bin2 button{
+   border-radius:20px;
+   border:2px solid palevioletred;
+   margin-top: 4%
+ }
+ 
+ .kol2{
+   font-family:cambria;
+   padding-left:20px;
+   float:left;
+   font-size:15px;
+   padding-top:200px
+ }
+ 
+ #recs{
+   background-color:olivedrab
+ }
+ 
+ .cram{
+   font-family: cambria;
+   font-size: 20px;
+   font-weight:bold;
+   padding-left:20px;
+   margin-right:40%;
+   margin-top: 3%;
+   width: 50%;
+   background-color:aqua;
+   height: 50px;
+   margin-left:60px;
+   color:blue
+ }
+ 
+ .cram a{
+      text-decoration: none;
+      color:blue;
+      float: left;
+ }
+ 
+ .cram1{
+   text-align:center;
+   font-weight:bold;
+   font-size:20px;
+   font-family:cambria;
+   color:blue;
+   padding-right: 200px;
+ 
+ }
+ #recs1{
+   background-color: lavenderblush;
+ }
+ 
+ .cram3{
+   font-family: cambria;
+   font-size: 20px;
+   font-weight:bold;
+   padding-left:10px;
+   margin-right:20px;
+   margin-top: 3%;
+   width: 60%;
+   background-color:aqua;
+   height: 50px;
+   margin-left:20px;
+   color:blue
+ }
+ 
+ .cram3 a{
+   text-decoration: none;
+   color:blue;
+   float: left;
+   padding-right:5px;
+   
+   
+ }
+ 
